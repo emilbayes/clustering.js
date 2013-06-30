@@ -1,0 +1,24 @@
+{
+    "name": "clustering-js",
+    "description": "",
+    "version": "0.0.1beta",
+    "author": "Emil Bay <melgaard@tixz.dk>",
+
+    "keywords": [
+        "clustering",
+        "kmeans",
+        "kmedians",
+        "machine learning",
+        "ml",
+        "ai",
+        "artificial intelligence",
+        "unsupervised"
+    ],
+
+
+    "license": "MIT",
+    "repository" : { 
+        "type" : "git", 
+        "url" : "https://github.com/tixz/clustering.js.git"
+    }
+}
