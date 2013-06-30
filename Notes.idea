@@ -1,0 +1,5 @@
+Implement SLINK (Single linked clustering): http://www.cs.gsu.edu/~wkim/index_files/papers/sibson.pdf
+    - Speedup by kD-Tree if N >> 2^k, otherwise linear search
+    - Approximation by 
+
+Implement neuronal clustering

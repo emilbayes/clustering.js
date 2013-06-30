@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clustering.js</title>
+    <script src="lib/initialization-methods.js"></script>
+    <script src="lib/distance-metrics.js"></script>
+    <script src="lib/clustering.js"></script>
+    <script src="lib/kMeans.js"></script>
+    <script src="lib/kMedians.js"></script>
+    <script>
+        var km = new kMedians({
+            K: 64,
+            distanceMetric: distanceMetrics.manhattan
+        });
+
+        var data = (function(){
+            var i = 1000
+              , j
+              , ret = [];
+
+            while(i--) {
+                j = 5;
+                ret.push([])
+                while(j--)
+                    ret[ret.length-1].push(Math.random())
+            }
+
+            return ret;
+        })()
+
+        km.cluster(data, function(){
+            console.log(km.centroids);
+        });
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
