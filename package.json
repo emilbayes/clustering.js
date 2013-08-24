@@ -1,8 +1,8 @@
 {
     "name": "clustering-js",
-    "description": "",
-    "version": "0.0.1beta",
-    "author": "Emil Bay <melgaard@tixz.dk>",
+    "description": "Clustering algorithms implemented in Javascript for Node.js and the browser",
+    "version": "0.0.2beta",
+    "author": "Emil Bay <github@tixz.dk>",
 
     "keywords": [
         "clustering",
@@ -12,9 +12,24 @@
         "ml",
         "ai",
         "artificial intelligence",
-        "unsupervised"
+        "unsupervised",
+        "clusteringjs",
+        "clustering.js"
     ],
 
+    "directories": {
+        "lib": "/lib",
+        "examples": "/examples"
+    },
+
+    "devDependencies": {
+        "grunt":                    "~0.4.1",
+        "grunt-contrib-jshint":     "~0.6.3",
+        "grunt-mocha-test":         "~0.6.3",
+        "grunt-contrib-uglify":     "~0.2.2",
+        "grunt-contrib-watch":      "~0.5.2",
+        "grunt-contrib-concat":     "~0.3.0"
+    },
 
     "license": "MIT",
     "repository" : { 
