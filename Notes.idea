@@ -3,3 +3,5 @@ Implement SLINK (Single linked clustering): http://www.cs.gsu.edu/~wkim/index_fi
     - Approximation by 
 
 Implement neuronal clustering
+Implement ROCK
+Implement DBSCAN
